@@ -7,7 +7,7 @@
     using System.Windows.Input;
     using System.Windows.Media;
     using System.Windows.Media.Animation;
-    using Microsoft.Windows.Controls;
+    using Xceed.Wpf.Toolkit;
 
     public partial class AdjustableColor : UserControl
     {
