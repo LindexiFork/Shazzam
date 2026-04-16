@@ -78,15 +78,15 @@
         /// </summary>
         public Brush Input
         {
-            get { return (Brush)this.GetValue(InputProperty); }
-            set { this.SetValue(InputProperty, value); }
+            get => (Brush)this.GetValue(InputProperty);
+            set => this.SetValue(InputProperty, value);
         }
 
         /// <summary>This is the value</summary>
         public double Value
         {
-            get { return (double)this.GetValue(ValueProperty); }
-            set { this.SetValue(ValueProperty, value); }
+            get => (double)this.GetValue(ValueProperty);
+            set => this.SetValue(ValueProperty, value);
         }
     }
 }
@@ -154,15 +154,15 @@
         /// </summary>
         public Brush Input
         {
-            get { return (Brush)this.GetValue(InputProperty); }
-            set { this.SetValue(InputProperty, value); }
+            get => (Brush)this.GetValue(InputProperty);
+            set => this.SetValue(InputProperty, value);
         }
 
         /// <summary>This is the value</summary>
         public double Value
         {
-            get { return (double)this.GetValue(ValueProperty); }
-            set { this.SetValue(ValueProperty, value); }
+            get => (double)this.GetValue(ValueProperty);
+            set => this.SetValue(ValueProperty, value);
         }
     }
 }
