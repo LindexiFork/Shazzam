@@ -44,13 +44,13 @@
     {
         /// <summary>Identifies the Input dependency property.</summary>
         public static readonly DependencyProperty InputProperty = ShaderEffect.RegisterPixelShaderSamplerProperty(
-            nameof(Input),
+            ""Input"",
             typeof(MyEffect),
             0);
 
         /// <summary>Identifies the Value dependency property.</summary>
         public static readonly DependencyProperty ValueProperty = DependencyProperty.Register(
-            nameof(Value),
+            ""Value"",
             typeof(double),
             typeof(MyEffect),
             new UIPropertyMetadata(
@@ -129,13 +129,13 @@
     {
         /// <summary>Identifies the Input dependency property.</summary>
         public static readonly DependencyProperty InputProperty = ShaderEffect.RegisterPixelShaderSamplerProperty(
-            nameof(Input),
+            ""Input"",
             typeof(MyEffect),
             0);
 
         /// <summary>Identifies the Value dependency property.</summary>
         public static readonly DependencyProperty ValueProperty = DependencyProperty.Register(
-            nameof(Value),
+            ""Value"",
             typeof(double),
             typeof(MyEffect),
             new UIPropertyMetadata(

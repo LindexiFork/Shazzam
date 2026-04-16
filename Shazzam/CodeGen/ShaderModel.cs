@@ -117,7 +117,7 @@
             {
                 this.Summary("Identifies the Input dependency property.")
                     .Line("public static readonly DependencyProperty InputProperty = ShaderEffect.RegisterPixelShaderSamplerProperty(")
-                    .Line("    nameof(Input),")
+                    .Line("    \"Input\",")
                     .Line($"    typeof({model.GeneratedClassName}),")
                     .Line($"    0);")
                     .Line();
@@ -126,7 +126,7 @@
                 {
                     this.Summary($"Identifies the {register.Name} dependency property.")
                         .Line($"public static readonly DependencyProperty {register.Name}Property = DependencyProperty.Register(")
-                        .Line($"    nameof({register.Name}),")
+                        .Line($"    \"{register.Name}\",")
                         .Line($"    typeof({TypeName(register.Type)}),")
                         .Line($"    typeof({model.GeneratedClassName}),")
                         .Line("    new UIPropertyMetadata(")
